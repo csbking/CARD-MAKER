@@ -26,3 +26,41 @@ It can generate multiple cards and marks them as **LIVE ✅** or **DEAD ❌**.
 
 
 ```
+git clone https://github.com/csbking/CARD-MAKER.git
+cd CARD-MAKER
+python3 cardmaker.pyx
+```
+---
+
+# 🔹 Example Output
+
+GENERATING & CHECKING CARDS...
+
+1. 1234567890123456|08|27|123 -> LIVE ✅
+2. 1234567890129876|11|25|456 -> DEAD ❌
+
+TOTAL LIVE CARDS : 1 / 2
+LIVE CARDS :1234567890123456|08|27|123
+
+---
+# 🔹 Notes
+
+Base card must be 16 digits
+Only cards passing Luhn check are marked LIVE
+Works best on Termux or Linux terminals with ANSI color support
+
+---
+# 🔹 Security & Disclaimer
+
+- This tool is for educational and testing purposes only.
+- Do not use generated card numbers for illegal transactions.
+
+
+---
+
+# 🔹 Contact
+
+CSB Security Team
+Developer: Alex Hunter
+
+---
