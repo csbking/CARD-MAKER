@@ -1,2 +1,2 @@
 import cardmaker
-cardmaker.sr()
+# cardmaker.sr()
