@@ -28,7 +28,7 @@ It can generate multiple cards and marks them as **LIVE ✅** or **DEAD ❌**.
 ```
 git clone https://github.com/csbking/CARD-MAKER.git
 cd CARD-MAKER
-python3 cardmaker.pyx
+python3 cardmaker.py
 ```
 ---
 
